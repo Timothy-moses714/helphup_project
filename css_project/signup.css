@@ -1,0 +1,97 @@
+body {
+  background-color: #f7f4fc;
+  font-family: sans-serif;
+}
+
+.sign-container {
+  background-color: #f4f0f7;
+  max-width: 350px;
+  margin: 30px auto;
+  padding: 20px;
+  box-shadow: 0 4px 24px rgb(13, 13, 13);
+}
+
+.sign-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #120428;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 16px;
+}
+
+.sign-container .head form input {
+  width: 90%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+
+.sign-button {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.sign-button button {
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+  background-color: #703ace;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.switch {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+
+.switch a {
+  text-decoration: none;
+  color: #703ace;
+  
+}
+.main{
+  text-align: center;
+}
+.main button{
+  text-align: center;
+  flex-wrap: wrap;
+}
+.google-btn {
+   width: 60%;
+  margin-left: 20%;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align:center;
+  cursor: pointer;
+}
+
+.google-btn img {
+  width: 30px;
+  border: none;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .sign-container {
+    width: 90%;
+    padding: 15px;
+  }
+
+  input {
+    font-size: 14px;
+  }
+
+  .sign-button button {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link rel="stylesheet" href="/project/css_project/signup.css">
+</head>
+<body>
+    <div class="sign-container">
+        <h2>Create an Account</h2>
+        <div class="head">
+            <form action="login_page.html" method="get">
+                <div>
+                    <label for="name">Full Name</label><br>
+                    <input type="text" id="name" name="name" placeholder="Full Name" required>
+                </div>
+
+                <div>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" placeholder="Email" required="">
+                </div>
+
+                <div>
+                    <label for="number">Phone Number</label><br>
+                    <input type="number" id="number" name="number" placeholder="Phone Number" required="">
+                </div>
+
+                <div>
+                    <label for="password">Password</label><br>
+                    <input type="password" id="password" name="password" placeholder="password" required="">
+                </div>
+
+                <div>
+                    <label for="comfirm password">Confirm Password</label><br>
+                    <input type="confirm password" id="confirm password" name="comfirm password" placeholder="confirm password" required="">
+                </div>
+
+                <div class="sign-button">
+                    <a href="login_page.html"><button>Sign Up</button></a>
+                </div>
+            </form>
+        </div>
+        <div class="switch">Already have an account?<a href="login_page.html"> Log in</a><br></div>
+        <div class="main">OR </div>
+        <div class="google-btn">
+            <a href="">
+                <button class="bottom"><img src="/project/images/google-logo.png" alt="logo">
+                Continue with Google    
+                </button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

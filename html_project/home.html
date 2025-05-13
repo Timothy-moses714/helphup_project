@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HelpHub - Home</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f1efef;
+    }
+    header {
+      background-color: #f9f4f4;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .navbar img {
+      width: 5%;
+      border-radius: 30px;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500px;
+    }
+    .head-text{
+      text-align: center;
+      padding: 20px;
+      color: #333;
+      background-color: #f4f4f4;
+    }
+    .head-text p{
+      font-size: 18px;
+    }
+    .container {
+      width: 70%;
+      margin-left: 15%;
+    }
+    .search-bar {
+      position: relative;
+      margin: 20px;
+      justify-content: center;
+    }
+
+    .search-bar input {
+      width: 100%;
+      padding: 14px 40px 14px 16px;
+      font-size: 16px;
+      border-radius: 30px;
+      border: 1px solid #ccc;
+      outline: none;
+    }
+
+    .search-bar img {
+      position: absolute;
+      right: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 20px;
+      height: 20px;
+      pointer-events: none;
+    }
+    .section {
+      margin: 30px 0;
+      padding: 20px;
+      background-color: #e6e1e1;
+      white-space: nowrap;
+    }
+
+    .section h2 {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .section .feature-grid img{
+      width: 150%;
+      height: 100%;
+      border-radius: 8px;
+    }
+    .section p{
+      font-size: 20px;
+      text-align: center;
+    }
+    section a{
+      text-decoration: none;
+      color: black;
+    }
+
+    .feature-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 70px;
+      margin-top: 20px;
+      padding: 20px;
+    }
+
+    .feature-box {
+      width: 200px;
+      text-align: center;
+      padding: 16px;
+      border-radius: 12px;
+    }
+
+    .feature-box img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+    }
+    .footer {
+      padding: 40px 20px;
+      background-color: #f9f9f9;
+      font-family: sans-serif;
+      border-top: 1px solid #ccc;
+    }
+
+    .footer-content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-content: center;
+      margin-left: 10%;
+      gap: 30px;
+    }
+
+    .footer-section {
+      flex: 1 1 200px;
+    }
+
+    .footer-section h3 {
+      margin-bottom: 12px;
+      font-size: 18px;
+    }
+    .footer-section p, 
+    .footer-section a, 
+    .footer-bottom p {
+      font-size: 14px;
+      line-height: 1.6;
+      color: #333;
+      text-decoration: none;
+    }
+
+    .footer-bottom {
+      margin-top: 40px;
+      text-align: center;
+      border-top: 1px solid #ddd;
+      padding-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+      <img src="images/helphub-logo.png" alt="logo">
+    </div>
+    <ul class="nav-links">
+      <li><a href="">Home</a></li>
+      <li><a href="features_page.html">Features</a></li>
+      <li><a href="About_page.html">About</a></li>
+      <li><a href="contact_page.html">Contact</a></li>
+      <a href="login_page.html">Logout</a>
+    </ul>
+    </nav>
+  </header>
+
+  <div class="head-text">
+    <h1>Welcome to Helphub</h1>
+    <p>Your community suport platform, find or offer jobs, housing,<br> skills and connect with your local community</p>
+  </div>
+  <div class="container">
+    <!-- Search Bar -->
+    <div class="search-bar">
+      <input type="text" placeholder="Search..." />
+      <img src="https://cdn-icons-png.flaticon.com/512/54/54481.png" alt="Search Icon" />
+    </div>
+  </div>
+
+  <!-- Housing Section -->
+  <div class="section">
+    <h2>🏠 Housing & Real Estate</h2>
+    <div class="feature-grid">
+      <div class="feature-box">
+        <img src="images/house2.jpg" alt="Find House">
+        <p>Find Rental Homes</p>
+      </div>
+      <div class="feature-box">
+        <img src="images/land.jpg" alt="Buy Land">
+        <p>Buy/Sell Land</p>
+      </div>
+      <div class="feature-box">
+        <img src="images/apartment.jpg" alt="Roommate">
+        <p>Search for Shared Apartment</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Jobs -->
+  <div class="section">
+    <h2>💼 Jobs & Services</h2>
+    <div class="feature-grid">
+      <div class="feature-box">
+        <img src="images/jobs.jpg" alt="Job Seeker">
+        <p>Look for Jobs</p>
+      </div>
+      <div class="feature-box">
+        <img src="images/job-offer.jpg" alt="Job Offer">
+        <p>Post Job Openings</p>
+      </div>
+      <div class="feature-box">
+        <img src="images/freeliance.jpg" alt="Freelance">
+        <p>Offer Services</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Community Feed -->
+  <div class="section">
+    <h2>📢 Community Feed</h2>
+    <div class="feature-grid">
+      <div class="feature-box">
+        <img src="images/update.jpg" alt="Updates">
+        <p>Local News & Alerts</p>
+      </div>
+      <div class="feature-box">
+        <img src="images/help.jpg" alt="Questions">
+        <p>Ask for Help</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Emergency SOS -->
+  <div class="section">
+    <h2>🚨 Emergency & Urgent Support</h2>
+    <div class="feature-grid">
+      <a href="">
+        <div class="feature-box">
+          <img src="images/emergency.jpg" alt="Emergency">
+          <p>Emergency SOS</p>
+        </div>
+      </a>
+      <div class="feature-box">
+        <img src="lost-found.png" alt="Lost & Found">
+        <p>Lost & Found</p>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section about">
+        <h3><i class="fas fa-hand-holding-heart"></i> About HelpHub</h3>
+        <p>HelpHub connects individuals in communities with local services, jobs, support, and emergency resources. We're here to help you thrive where you live.</p>
+      </div>
+  
+      <div class="footer-section links">
+        <h3><i class="fas fa-link"></i> Quick Links</h3>
+        <ul>
+          <li><a href="#"><i class="fas fa-hands-helping"></i> Help Requests</a></li>
+          <li><a href="#"><i class="fas fa-briefcase"></i> Local Jobs</a></li>
+          <li><a href="#"><i class="fas fa-newspaper"></i> Community Feed</a></li>
+          <li><a href="#"><i class="fas fa-bell"></i> Emergency Alerts</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-section contact">
+        <h3><i class="fas fa-envelope"></i> Contact Us</h3>
+        <p><i class="fas fa-envelope-open-text"></i> support@helphub.org</p>
+        <p><i class="fas fa-phone"></i> +123 456 7890</p>
+        <p><i class="fas fa-map-marker-alt"></i> 123 Community Lane, Unity City</p>
+      </div>
+  
+      <div class="footer-section social">
+        <h3><i class="fas fa-hashtag"></i> Follow Us</h3>
+        <a href="#"><i class="fab fa-facebook"></i> Facebook</a><br>
+        <a href="#"><i class="fab fa-twitter"></i> Twitter</a><br>
+        <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+      </div>
+    </div>
+  
+    <div class="footer-bottom">
+      <p>&copy; 2025 HelpHub. All rights reserved. | 
+        <a href="#"><i class="fas fa-shield-alt"></i> Privacy Policy</a> | 
+        <a href="#"><i class="fas fa-file-contract"></i> Terms of Service</a>
+      </p>
+    </div>
+  </footer>v
+</body>
+</html>

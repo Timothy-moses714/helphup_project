@@ -109,23 +109,25 @@ body{
 }
 
 @media (max-width: 768px) {
-
+  
   .navbar {
-    flex-direction: row;
-    align-items: column;
-    padding: 16px;
+    flex-direction:column;
+    align-items: center;
+    overflow: hidden;
   }
 
   .navbar img {
     margin-bottom: 10px;
+  
   }
 
   .navbar .head {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    font-size: 10px;
-    flex-wrap: nowrap;
+    justify-content: flex-start;
+    flex-wrap: wrap; 
+    font-size: 14px;
+    
   }
 
   .features-grid {

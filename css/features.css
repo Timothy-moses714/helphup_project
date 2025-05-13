@@ -114,6 +114,7 @@ body{
     flex-direction:column;
     align-items: center;
     overflow: hidden;
+    white-space: nowrap;
   }
 
   .navbar img {
@@ -122,6 +123,7 @@ body{
   }
 
   .navbar .head {
+    white-space: nowrap;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;

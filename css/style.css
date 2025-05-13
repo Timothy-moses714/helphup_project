@@ -210,9 +210,10 @@ body {
     white-space: nowrap;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     justify-content: flex-start;
     flex-wrap: wrap; 
-    font-size: 12px;
+    font-size: 10px;
     
   }
   .hero h1 {
